@@ -1,0 +1,154 @@
+BODY {
+   /*font-family:	"MS Serif", "Times New Roman", serif;*/
+   font-family:   Verdana,Arial, Helvetica, sans-serif; 
+   font-size: 120%;
+   margin: 1em;
+   background-color: #cff;
+   }
+h1, h2, h3, h4, h5, h6 {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   color: #990000;
+   margin-top: 0.5em;
+   margin-bottom: 0em;
+   }
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after{
+content: ":";
+    }
+
+h1 {font-size: 120%;
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	color: #990000 !important;
+	}
+h2 {font-size: 110%;
+    margin-left: -0%;
+	color: #0000FF;
+	}
+h3 {font-size: 100%;
+    margin-left: -0%;
+   }
+h4 {font-size:  80%;
+/*	display: inline;*/ 
+/*    display: block;*/
+	color: #000000;
+	}
+
+
+
+h5 {font-size:  70%}
+A {cursor: auto}
+
+A:link {color: blue;
+background: transparent;
+text-decoration: underline}
+
+A:visited {color: fuchsia;
+background: transparent;
+text-decoration: underline}
+
+A:active {color: red;
+background: transparent;
+text-decoration: underline}
+
+A:hover {text-decoration: underline;
+         cursor: pointer;
+         color: red;}
+
+A.InternalNavigation{
+	color: #990000;
+	}
+	
+
+ul{
+  margin-left: 0;
+  padding-left: 1em;
+  }
+li {
+  color: #002288;
+  margin-bottom: 0.1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0;
+  list-style-position: outside;
+  list-style-type: circle;
+  }
+
+
+#TopMenu {/*position: fixed;*/
+	top: 0em;
+	left: 0.5em;
+	height: 2em;
+	margin-top: 0em;
+	text-align: right;
+  border-bottom-color:#990000;
+  border-bottom-style: ridge;
+	overflow: hidden;
+	color: #990000;
+/*	border-color: 
+	border-style: solid;
+	display: block; */
+	}
+#Main {/*position: fixed;*/
+	   top: 4em;
+	   left: 0em;
+	   float: left;
+	   margin-top: 1em;
+	   width: 95%;
+     background-color: f6ffff;
+	   text-align: left;	  
+	   border-style: groove;
+	   padding: 0.5%;
+	   }
+#NewsCol {	   
+	   width:95%;
+       background-color: f6ffff;
+   	   float: left;
+	   margin-top: 1em;
+	   border-style: groove;
+	   padding: 0.5%;
+	   }
+
+
+
+#RefCol {
+       width: 95%;	   	  
+      background-color: f6ffff;
+	   float: left;
+	   margin-top: 1em;
+	   border-style: groove;	   
+	   padding: 0.5%;
+
+	   }
+
+Pre {
+
+	font-family : "Courier New", Courier, mono, monospace;
+
+/*	background : white;*/
+	margin-top: 0em;
+	margin-left: 1em; }
+
+.floatingGraph
+/*good for floating graphs with a caption */
+		{
+		float: left;
+		width: 100%;
+		margin-left: 0em;
+		margin-right: 1em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		/*background-color: #ddd;*/
+		padding: 10px;
+		border: 1px solid #666;
+		clear:  left;
+		text-align: center;
+		font-family: arial, helvetica, sans-serif;
+		font-size: 100%;
+		font-weight: bold;
+        }
+	div.floatingGraph img { border: 1px solid #000; }
+
+
+
